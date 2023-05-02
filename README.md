@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# TextUtils - your ultimate word counter
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A word counter and character counter tool with average time required to read. Also there are options to change the text to uppercase, lowercase or title case. Also there is an option to copy the text in the textarea.
 
-## Available Scripts
+![image](https://user-images.githubusercontent.com/113904274/235653776-57e07fe8-457d-4431-9fa0-6d704b465a26.png)
+## Features
 
-In the project directory, you can run:
+This project has the following features:
 
-### `npm start`
+### `Word count`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![image](https://user-images.githubusercontent.com/113904274/235655145-e1a39901-d3c2-45e3-aabe-4f33035f1af8.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Automatically, shows number of words in the given piece of text.<br><br>
 
-### `npm test`
+### `Character count`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![image](https://user-images.githubusercontent.com/113904274/235655564-102cb276-59d7-415e-94e4-1e1ad11c80da.png)
 
-### `npm run build`
+Updates the total number of characters in the given piece of text when copied in text area.<br><br>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### `Average time to read`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![image](https://user-images.githubusercontent.com/113904274/235656394-04921640-780d-4e27-a149-07cc856c9235.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Calculates the time required to read that piece of text for an average human.<br><br>
 
-### `npm run eject`
+### `Converts to UpperCase`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![image](https://user-images.githubusercontent.com/113904274/235656883-bdfc7ccc-36ac-4f1e-aa54-af50ac793954.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Changes the case of the given piece of text to uppercase on a single button-click.<br><br>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### `Converts to LowerCase`
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![image](https://user-images.githubusercontent.com/113904274/235657341-c7b25e11-e809-49e3-8c5f-ce79ff84cd92.png)
 
-## Learn More
+Changes the case of the given piece of text to lowercase on a single button-click.<br><br>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### `Converts to TitleCase`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![image](https://user-images.githubusercontent.com/113904274/235657684-d8dc3789-73df-4085-bb7e-fc7dfd3c21d6.png)
 
-### Code Splitting
+Changes the case of the given piece of text to titlecase on a single button-click.<br><br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### `Copy Text`
 
-### Analyzing the Bundle Size
+![image](https://user-images.githubusercontent.com/113904274/235658319-d96518e2-1864-4730-af09-f053196e2b5e.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Copies text from the text area to clipboard after modification.<br><br>
 
-### Making a Progressive Web App
+### `Preview Text`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+![image](https://user-images.githubusercontent.com/113904274/235659485-cc8684dd-401a-4785-8f3c-cba739af5267.png)
 
-### Advanced Configuration
+You can view your text in the preview area. This is helpful if piece of text is very large and exceeds the text area.<br><br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### `Dark Mode`
 
-### Deployment
+![image](https://user-images.githubusercontent.com/113904274/235660113-6fde1635-93b9-4787-a47f-ab9b0129c182.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Users comfortable with dark mode can toggle into it from the top menu bar.
